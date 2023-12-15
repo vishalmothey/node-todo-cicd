@@ -15,7 +15,7 @@ pipeline {
                 echo 'code build bhi ho gaya'
             }
         }
-        stage("scan image"){
+       /* stage("scan image"){
             steps{
                 echo 'image scanning ho gayi'
             }
@@ -35,6 +35,6 @@ pipeline {
                 sh "docker-compose down && docker-compose up -d"
                 echo 'deployment ho gayi'
             }
-        }
+        } */
     }
 }
